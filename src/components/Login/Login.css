@@ -1,0 +1,70 @@
+.btn {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    border-style: solid;
+    background-color: #d0f3e8;
+    border-color: #d0f3e8;
+    margin: 0 3px;
+}
+
+.login-page-wrapper {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 90px;
+    height: 700px;
+    width:100%;
+    background-color: peru;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-page-wrapper .domino-logo {
+    width: 250px;
+    margin: 20px;
+}
+
+.login-page-wrapper .username-label {
+    margin: 0 5px;    
+    font-size: 20px;
+}
+
+.login-page-wrapper .username-input {  
+    border-radius: 6px;
+    padding: 6px 12px;  
+    font-size: 20px;
+    line-height: 20px;
+    margin:2px;
+    border: 1px solid #ccc;   
+}
+
+
+
+.login-page-wrapper .submit-btn {
+    border-radius: 6px;
+    padding: 6px 12px;
+	box-shadow: inset 0px 1px 0px 0px #caefab;
+	background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+	background-color: #77d42a;
+	border: 1px solid #268a16;
+	color: #306108;
+	text-shadow: 0px 1px 0px #aade7c;
+}
+
+.login-page-wrapper .login-error-message {
+    color: red;
+    font-weight: 600;
+}
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+.LobbyHeader {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #703b09;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Table {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 90px;
+    height: calc(100vh - 190px);
+    width: 100%;
+    background-color: peru;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    overflow: auto;
+    min-width: 600px;
+}
+
+.Players {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 15%;
+}
+
+.Games {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.Title {
+    margin-top:10px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .Title, .Table{
+        font-size: 15px;
+    }
+}

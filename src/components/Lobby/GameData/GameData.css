@@ -1,0 +1,13 @@
+.GameData {
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Underlined {
+    text-decoration: underline;
+    margin: 0 5px;
+}

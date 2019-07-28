@@ -1,0 +1,43 @@
+.SecondWrapper {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 15%;
+  height: calc(100vh - 200px);
+  background: #ccc;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.SecondDeck {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  z-index: 100;
+}
+
+
+.SecondDeck img {
+  margin: 10px;
+}
+
+.SecondName {
+  clear: both;
+  font-size: 30px;
+  margin: 5px;
+  font-weight: bold;
+  color: #000033;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+@media screen and (max-width: 600px) {
+  .SecondName {
+    font-size: 20px;
+    margin: 2px;
+    font-weight: normal;
+  }
+}

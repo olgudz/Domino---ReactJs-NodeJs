@@ -1,0 +1,20 @@
+.Statistic2 {
+  margin-top: 100px;
+  display: inline-block;
+  width: 50%;
+  height: calc(100vh - 200px);
+  background: #ccc;
+  border: 2px solid #703b09;
+  box-sizing: border-box;
+}
+
+.Statistic3 {
+  margin-top: 100px;
+  display: inline-block;
+  width: 33.333333%;
+  height: calc(100vh - 200px);
+  background: #ccc;
+  border: 2px solid #703b09;
+  box-sizing: border-box;
+}
+

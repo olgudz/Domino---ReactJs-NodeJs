@@ -1,0 +1,15 @@
+.Deck {
+    background-color:white;
+    margin-left: 30px;
+    margin:5px;
+    padding:3px;
+    height: 80%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Deck img{
+    height: 100%;
+}
+
+

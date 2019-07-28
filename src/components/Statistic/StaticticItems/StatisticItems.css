@@ -1,0 +1,30 @@
+.StatisticItems {
+    height: 100%;
+}
+
+.StatisticItems div {
+    clear: both;
+    float: left; 
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 4px solid #40a4c8;
+}
+
+.Winner{
+    clear: both;
+    float: left; 
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 4px solid #40a4c8;
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .Winner{
+        font-size: 18px;
+    }
+}

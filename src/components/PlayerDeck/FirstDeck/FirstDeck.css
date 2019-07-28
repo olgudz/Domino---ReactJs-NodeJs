@@ -1,0 +1,33 @@
+.FirstDeck {
+    height: 100px;
+    background-color: #703b09;
+    display: flex;
+    justify-content: center; 
+    box-sizing: border-box;
+    z-index: 90;
+    position: fixed;
+    left: 100;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+  }
+
+ .FirstDeck img{
+   margin: 10px;
+ }
+
+ .FirstName{
+   font-size: 30px;
+   margin: 5px;
+   margin-right: 30px;
+   font-weight: bold;
+   color: #000033;
+   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+ }
+
+ @media screen and (max-width: 600px) {
+  .FirstName {
+    font-size: 20px;
+    font-weight: normal;
+  }
+}

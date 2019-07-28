@@ -1,0 +1,16 @@
+.StatisticItem{
+    box-sizing: border-box;
+    list-style: none;
+    float: left;
+    width: 80%;  
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .StatisticItem{
+        font-size: 14px;
+    }
+}
